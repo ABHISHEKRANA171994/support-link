@@ -22,9 +22,7 @@ Contains the HTML content you want to serve.
 Navigate to the project directory where the Dockerfile is located and build the Docker image using the following command:
 
 ```sh
-docker build -t my-support-links .
+docker build -t support-link-hover-effect .
 
 Running the Docker Container
-docker run -d -p 8080:80 my-support-links
-
-
+docker run -d -p 8081:80 support-link-hover-effect
